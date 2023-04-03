@@ -67,6 +67,34 @@ CIRCUIT DIAGRAM
 
 
 **PROGRAM** 
+```
+developed by: v.sreeja 
+registered number:212222230169
+
+int potPin = A5;
+int ledPin = 2;
+
+void setup ()
+{
+  pinMode (potPin, INPUT);
+  pinMode (ledPin, OUTPUT);
+  Serial.begin(9600);
+}
+
+void loop(){
+   int PotMeasure = analogRead(A5);
+  Serial.print("Sensor Value: ");
+  Serial.println(PotMeasure);
+  if (PotMeasure>=650)
+  {
+    digitalWrite(2, HIGH);
+  }
+  else
+    digitalWrite(2, LOW);
+}
+
+  ```
+
  
 
 
@@ -80,6 +108,8 @@ CIRCUIT DIAGRAM
 **
 **Simulation output:** 
 **
+
+![Screenshot (91)](https://user-images.githubusercontent.com/118344328/229503310-09a12e8c-4b38-4d04-a6d4-d7a333bfe884.png)
 
 
 [My image](username.github.com/repository/img/image.jpg)
