@@ -97,19 +97,16 @@ void loop(){
 
  
 
-
-
-
-
-
-
-
-
-**
 **Simulation output:** 
 **
+before simulation
 
-![Screenshot (91)](https://user-images.githubusercontent.com/118344328/229503310-09a12e8c-4b38-4d04-a6d4-d7a333bfe884.png)
+![Screenshot (134)](https://user-images.githubusercontent.com/118344328/233996385-074ce6e2-ed22-4c72-8977-5e21103b0c1e.png)
+
+after simulation
+
+![Screenshot (135)](https://user-images.githubusercontent.com/118344328/233996973-6d13dac0-1616-40ba-997e-5c59f5bc04bd.png)
+
 
 
 [My image](username.github.com/repository/img/image.jpg)
@@ -120,4 +117,6 @@ void loop(){
 
 
 
-**RESULT: ** Arduino uno analog input functioning is learned and interfaced with digital input switch .
+**RESULT: ** 
+
+Arduino uno analog input functioning is learned and interfaced with digital input switch .
